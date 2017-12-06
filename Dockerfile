@@ -70,7 +70,7 @@ ENV PHOENIX_VERSION 1.3.0
 
 # Install phoenix
 RUN mix local.hex --force && \
-  mix archive.install --force https://github.com/phoenixframework/archives/raw/master/phx_new-$PHOENIX_VERSION.ez && \
+  mix archive.install --force https://github.com/phoenixframework/archives/raw/master/phx_new-${PHOENIX_VERSION}.ez && \
   mix local.rebar --force
 
 CMD ["iex"]
