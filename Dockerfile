@@ -1,4 +1,4 @@
-FROM elixir:1.5-alpine
+FROM elixir:1.6-alpine
 
 LABEL maintainer="Sam Mulube <sam@umbrellium.co.uk>"
 
